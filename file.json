@@ -1,0 +1,1375 @@
+{
+    "stao": null,
+    "alw": false,
+    "acu": null,
+    "acui": null,
+    "cll": {
+        "accessControl": 0,
+        "adapterCurrentLimit": 16,
+        "currentLimitMax": 16,
+        "minChargingCurrent": 6,
+        "requestedCurrent": 16,
+        "temperatureCurrentLimit": 32
+    },
+    "adi": false,
+    "acl": 16,
+    "dwo": null,
+    "tpa": 65.18603516,
+    "sse": "239238",
+    "eto": 3225788,
+    "etop": 3225788,
+    "wifis": [
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "MagentaWLAN-QBX7_EXT",
+            "key": true,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        },
+        {
+            "ssid": "",
+            "key": false,
+            "useStaticIp": false,
+            "staticIp": "0.0.0.0",
+            "staticSubnet": "0.0.0.0",
+            "staticGateway": "0.0.0.0",
+            "useStaticDns": false,
+            "staticDns0": "0.0.0.0",
+            "staticDns1": "0.0.0.0",
+            "staticDns2": "0.0.0.0"
+        }
+    ],
+    "scas": 2,
+    "scan": [
+        {
+            "ssid": "MagentaWLAN-QBX7_EXT",
+            "encryptionType": 3,
+            "rssi": -53,
+            "channel": 11,
+            "bssid": "F0:A7:31:AA:5A:12",
+            "f": [
+                4,
+                4,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                "DE"
+            ]
+        },
+        {
+            "ssid": "IP30DetKaw",
+            "encryptionType": 3,
+            "rssi": -78,
+            "channel": 6,
+            "bssid": "0C:8E:29:52:F3:B6",
+            "f": [
+                4,
+                4,
+                true,
+                true,
+                true,
+                false,
+                true,
+                false,
+                false,
+                "DE"
+            ]
+        },
+        {
+            "ssid": "MagentaWLAN-QBX7",
+            "encryptionType": 7,
+            "rssi": -82,
+            "channel": 11,
+            "bssid": "CC:58:30:C7:22:8E",
+            "f": [
+                4,
+                4,
+                true,
+                true,
+                true,
+                false,
+                true,
+                false,
+                false,
+                "DE"
+            ]
+        },
+        {
+            "ssid": "25TVBerScha",
+            "encryptionType": 3,
+            "rssi": -89,
+            "channel": 6,
+            "bssid": "E4:75:DC:11:66:8A",
+            "f": [
+                4,
+                4,
+                true,
+                true,
+                true,
+                false,
+                true,
+                false,
+                false,
+                "DE"
+            ]
+        },
+        {
+            "ssid": "Wu2000Wehr",
+            "encryptionType": 3,
+            "rssi": -91,
+            "channel": 1,
+            "bssid": "94:4A:0C:BB:72:3B",
+            "f": [
+                4,
+                4,
+                true,
+                true,
+                true,
+                false,
+                true,
+                false,
+                false,
+                "DE"
+            ]
+        }
+    ],
+    "lwf": 2854772480,
+    "scaa": 2854779271,
+    "wst": 3,
+    "wsc": 0,
+    "wsm": "2023304637028 WIFI_STA_DISCONNECTED ssid=\"MagentaWLAN-QBX7_EXT\" bssid=F0:A7:31:AA:5A:12 reason=8(ASSOC_LEAVE)\n2023309984833 WIFI_STA_DISCONNECTED ssid=\"MagentaWLAN-QBX7_EXT\" bssid=F0:A7:31:AA:5A:12 reason=8(ASSOC_LEAVE)\n2068145452705 WIFI_STA_DISCONNECTED ssid=\"MagentaWLAN-QBX7_EXT\" bssid=F0:A7:31:AA:5A:12 reason=8(ASSOC_LEAVE)\n2701809559618 WIFI_STA_DISCONNECTED ssid=\"MagentaWLAN-QBX7_EXT\" bssid=F0:A7:31:AA:5A:12 reason=8(ASSOC_LEAVE)\n2854772479773 WIFI_STA_DISCONNECTED ssid=\"MagentaWLAN-QBX7_EXT\" bssid=F0:A7:31:AA:5A:12 reason=8(ASSOC_LEAVE)",
+    "wsl": [
+        [
+            2023304637028,
+            "MagentaWLAN-QBX7_EXT",
+            "F0:A7:31:AA:5A:12",
+            "ASSOC_LEAVE"
+        ],
+        [
+            2023309984833,
+            "MagentaWLAN-QBX7_EXT",
+            "F0:A7:31:AA:5A:12",
+            "ASSOC_LEAVE"
+        ],
+        [
+            2068145452705,
+            "MagentaWLAN-QBX7_EXT",
+            "F0:A7:31:AA:5A:12",
+            "ASSOC_LEAVE"
+        ],
+        [
+            2701809559618,
+            "MagentaWLAN-QBX7_EXT",
+            "F0:A7:31:AA:5A:12",
+            "ASSOC_LEAVE"
+        ],
+        [
+            2854772479773,
+            "MagentaWLAN-QBX7_EXT",
+            "F0:A7:31:AA:5A:12",
+            "ASSOC_LEAVE"
+        ]
+    ],
+    "wsms": 3,
+    "ccw": {
+        "ssid": "MagentaWLAN-QBX7_EXT",
+        "encryptionType": 3,
+        "pairwiseCipher": 4,
+        "groupCipher": 4,
+        "b": true,
+        "g": true,
+        "n": true,
+        "lr": false,
+        "wps": false,
+        "ftmResponder": false,
+        "ftmInitiator": false,
+        "channel": 11,
+        "bssid": "F0:A7:31:AA:5A:12",
+        "ip": "192.168.2.44",
+        "netmask": "255.255.255.0",
+        "gw": "192.168.2.1",
+        "ipv6": [
+            "FE80::C6DE:E2FF:FE4E:A268",
+            "2003:E3:974B:AD8D:C6DE:E2FF:FE4E:A268",
+            "2003:E3:974B:AD56:C6DE:E2FF:FE4E:A268"
+        ]
+    },
+    "wfb": null,
+    "wcb": "F0:A7:31:AA:5A:12",
+    "wpb": null,
+    "nif": "st",
+    "dns": {
+        "dns0": "192.168.2.1",
+        "dns1": "0.0.0.0",
+        "dns2": "0.0.0.0"
+    },
+    "hsts": "go-echarger_239238",
+    "hsta": "go-echarger_239238",
+    "host": "go-echarger_239238",
+    "wbw": 1,
+    "rssi": -51,
+    "lssfc": 2854772481,
+    "lsstc": 2854782165,
+    "ehs": 285792,
+    "efh": 130280,
+    "efh32": 130280,
+    "efh8": 93156,
+    "fem": 1,
+    "sbe": true,
+    "emfh": 107260,
+    "emhb": 81908,
+    "eci": {
+        "model": 1,
+        "features": 50,
+        "cores": 2,
+        "revision": 300
+    },
+    "ecf": {
+        "source": 1,
+        "source_freq_mhz": 320,
+        "div": 2,
+        "freq_mhz": 160
+    },
+    "efi": {
+        "segment_count": 3,
+        "spi_mode": 2,
+        "spi_speed": 0,
+        "spi_size": 3
+    },
+    "abm": "C4:DE:E2:4E:A2:68",
+    "dbm": "C4:DE:E2:4E:A2:68",
+    "cbm": null,
+    "obm": null,
+    "macs": "C4:DE:E2:4E:A2:68",
+    "maca": "C4:DE:E2:4E:A2:69",
+    "esr": [
+        12,
+        12
+    ],
+    "rr": 4,
+    "wae": true,
+    "fwan": "go-e-239238",
+    "wan": "go-e-239238",
+    "facwak": true,
+    "wak": false,
+    "wda": false,
+    "wen": true,
+    "wsmr": -90,
+    "wapc": 1,
+    "waap": 4,
+    "swc": false,
+    "pass": true,
+    "facpass": false,
+    "tse": false,
+    "ts": "europe.pool.ntp.org",
+    "tssm": 0,
+    "tssi": 3600000,
+    "tsss": 0,
+    "tof": 60,
+    "tds": 1,
+    "tzt": "",
+    "utc": "2024-06-12T08:58:34.400",
+    "loc": "2024-06-12T10:58:34.402 +02:00",
+    "led": {
+        "id": 23,
+        "name": "WaitAuth",
+        "norwayOverlay": true,
+        "modeOverlay": true,
+        "subtype": "renderCmds",
+        "ranges": [
+            {
+                "from": 0,
+                "to": 15,
+                "colors": [
+                    "#0000FF"
+                ]
+            },
+            {
+                "from": 16,
+                "to": 31,
+                "colors": [
+                    "#00001F"
+                ]
+            }
+        ],
+        "waitAuth": true
+    },
+    "ledo": null,
+    "lbr": 255,
+    "lmo": 3,
+    "ama": 16,
+    "tcl": null,
+    "die": false,
+    "dii": false,
+    "la1": 16,
+    "la3": 16,
+    "di1": false,
+    "pgr": false,
+    "pdi": false,
+    "ufe": false,
+    "ufm": 0,
+    "ufa": 49.79999924,
+    "ufs": 49,
+    "clp": [
+        6,
+        10,
+        12,
+        14,
+        16
+    ],
+    "al1": 6,
+    "al2": 10,
+    "al3": 12,
+    "al4": 14,
+    "al5": 16,
+    "bac": 3,
+    "sdp": 2,
+    "lbp": null,
+    "amp": 16,
+    "ffna": "go-eCharger_239238",
+    "fna": "go-eCharger_239238",
+    "isgo": true,
+    "simo": true,
+    "aus": false,
+    "cy": "germany",
+    "mukw": 4.599999905,
+    "rdbs": 0,
+    "rdes": 0,
+    "rdbf": 0,
+    "rdef": 0,
+    "rdre": 0,
+    "rdpl": 0,
+    "rdbse": null,
+    "rdese": null,
+    "rdbfe": null,
+    "rdefe": null,
+    "rdree": null,
+    "rdple": null,
+    "cid": "#0000FF",
+    "cwc": "#FFFF00",
+    "cch": "#00FFFF",
+    "cfi": "#00FF00",
+    "ust": 0,
+    "lck": 0,
+    "sch_week": {
+        "control": 0,
+        "ranges": [
+            {
+                "begin": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                },
+                "end": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                }
+            },
+            {
+                "begin": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                },
+                "end": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                }
+            }
+        ]
+    },
+    "sch_satur": {
+        "control": 0,
+        "ranges": [
+            {
+                "begin": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                },
+                "end": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                }
+            },
+            {
+                "begin": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                },
+                "end": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                }
+            }
+        ]
+    },
+    "sch_sund": {
+        "control": 0,
+        "ranges": [
+            {
+                "begin": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                },
+                "end": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                }
+            },
+            {
+                "begin": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                },
+                "end": {
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0
+                }
+            }
+        ]
+    },
+    "nmo": false,
+    "dco": true,
+    "fsp": false,
+    "frci": true,
+    "rsd": 35,
+    "rfd": 8742564,
+    "rss": 49,
+    "rfs": 5,
+    "ris": 1,
+    "rssa": 0,
+    "rco": 0,
+    "ria": 3,
+    "rfa": 35,
+    "rsu": 21,
+    "rfu": 14,
+    "acs": 1,
+    "frc": 0,
+    "rbc": 18,
+    "rbt": 3517417903,
+    "car": 1,
+    "err": 0,
+    "cbl": null,
+    "pha": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+    ],
+    "wh": 29454.59961,
+    "trx": null,
+    "fwv": "56.1",
+    "arv": "1.2.1",
+    "ccu": null,
+    "oem": "go-e",
+    "typ": "go-eCharger_V4",
+    "fwc": "0.0.1-50",
+    "ccrv": "0.0.1-50",
+    "apd": {
+        "project_name": "goecharger_hw3+",
+        "version": "56.1",
+        "secure_version": 0,
+        "timestamp": "Dec 20 2023 12:41:21",
+        "idf_ver": "v5.2-dev-364-g0d2d6ba7431",
+        "sha256": "6e1091e5086e0764"
+    },
+    "otap": {
+        "type": 0,
+        "subtype": 16,
+        "address": 1703936,
+        "size": 3145728,
+        "label": "app_0",
+        "encrypted": true
+    },
+    "part": [
+        {
+            "type": 1,
+            "subtype": 2,
+            "address": 65536,
+            "size": 262144,
+            "label": "nvs",
+            "encrypted": false
+        },
+        {
+            "type": 1,
+            "subtype": 2,
+            "address": 327680,
+            "size": 262144,
+            "label": "nvsFac",
+            "encrypted": false
+        },
+        {
+            "type": 1,
+            "subtype": 1,
+            "address": 589824,
+            "size": 4096,
+            "label": "phy_init",
+            "encrypted": false
+        },
+        {
+            "type": 1,
+            "subtype": 0,
+            "address": 593920,
+            "size": 8192,
+            "label": "otadata",
+            "encrypted": true
+        },
+        {
+            "type": 0,
+            "subtype": 16,
+            "address": 1703936,
+            "size": 3145728,
+            "label": "app_0",
+            "encrypted": true
+        },
+        {
+            "type": 0,
+            "subtype": 17,
+            "address": 4849664,
+            "size": 3145728,
+            "label": "app_1",
+            "encrypted": true
+        },
+        {
+            "type": 1,
+            "subtype": 4,
+            "address": 7995392,
+            "size": 4096,
+            "label": "nvs_key",
+            "encrypted": true
+        },
+        {
+            "type": 1,
+            "subtype": 3,
+            "address": 7999488,
+            "size": 65536,
+            "label": "coredump",
+            "encrypted": true
+        },
+        {
+            "type": 64,
+            "subtype": 1,
+            "address": 8065024,
+            "size": 65536,
+            "label": "keys",
+            "encrypted": true
+        },
+        {
+            "type": 1,
+            "subtype": 130,
+            "address": 8130560,
+            "size": 258048,
+            "label": "spiffs",
+            "encrypted": false
+        }
+    ],
+    "pto": 61440,
+    "lse": false,
+    "cdi": {
+        "type": 1,
+        "value": 13796315
+    },
+    "lch": 3469245834,
+    "lccfi": 3469245834,
+    "lccfc": 3483069416,
+    "lcctc": 3469273101,
+    "tma": [
+        32.5,
+        27
+    ],
+    "amt": 32,
+    "nrg": [
+        222.2700043,
+        221.6499939,
+        224.4400024,
+        2.480000019,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "modelStatus": 2,
+    "msi": 2,
+    "lmsc": 3500786181,
+    "mca": 6,
+    "awc": 0,
+    "awp": 3,
+    "awcp": {
+        "start": 1718179200,
+        "end": 1718182800,
+        "marketprice": 6.68200016
+    },
+    "awpl": [
+        {
+            "start": 1718179200,
+            "end": 1718182800,
+            "marketprice": 6.68200016
+        },
+        {
+            "start": 1718182800,
+            "end": 1718186400,
+            "marketprice": 5.705999851
+        },
+        {
+            "start": 1718186400,
+            "end": 1718190000,
+            "marketprice": 6.369999886
+        },
+        {
+            "start": 1718190000,
+            "end": 1718193600,
+            "marketprice": 5.972000122
+        },
+        {
+            "start": 1718193600,
+            "end": 1718197200,
+            "marketprice": 3.311000109
+        },
+        {
+            "start": 1718197200,
+            "end": 1718200800,
+            "marketprice": 3.631000042
+        },
+        {
+            "start": 1718200800,
+            "end": 1718204400,
+            "marketprice": 5.880000114
+        },
+        {
+            "start": 1718204400,
+            "end": 1718208000,
+            "marketprice": 9.100000381
+        },
+        {
+            "start": 1718208000,
+            "end": 1718211600,
+            "marketprice": 9.99600029
+        },
+        {
+            "start": 1718211600,
+            "end": 1718215200,
+            "marketprice": 11.99400043
+        },
+        {
+            "start": 1718215200,
+            "end": 1718218800,
+            "marketprice": 13.91600037
+        },
+        {
+            "start": 1718218800,
+            "end": 1718222400,
+            "marketprice": 14.08199978
+        },
+        {
+            "start": 1718222400,
+            "end": 1718226000,
+            "marketprice": 12.18799973
+        },
+        {
+            "start": 1718226000,
+            "end": 1718229600,
+            "marketprice": 9.996999741
+        }
+    ],
+    "ido": null,
+    "frm": 1,
+    "fup": true,
+    "awe": false,
+    "fst": 1400,
+    "fmt": 300000,
+    "att": 21600,
+    "ate": 18000,
+    "ara": true,
+    "acp": true,
+    "cco": 18,
+    "esk": false,
+    "fzf": false,
+    "pgt": 0,
+    "sh": 200,
+    "psh": 500,
+    "po": -300,
+    "zfo": 200,
+    "psmd": 10000,
+    "sumd": 10000,
+    "mpwst": 120000,
+    "mptwt": 600000,
+    "ferm": 1,
+    "mmp": 0,
+    "tlf": false,
+    "tls": null,
+    "atp": null,
+    "lpsc": null,
+    "inva": null,
+    "pgrid": null,
+    "ppv": null,
+    "pakku": null,
+    "deltap": 0,
+    "pnp": 0,
+    "deltaa": 0,
+    "pvopt_averagePGrid": 0,
+    "pvopt_averagePPv": 0,
+    "pvopt_averagePAkku": 0,
+    "ct": "",
+    "mci": 0,
+    "mcpd": 0,
+    "mcpea": null,
+    "su": false,
+    "sua": false,
+    "hws": true,
+    "hsa": true,
+    "var": 11,
+    "loe": false,
+    "log": "",
+    "lop": 50,
+    "lopr": false,
+    "lof": 0,
+    "map": [
+        1,
+        2,
+        3
+    ],
+    "upo": false,
+    "pwm": 0,
+    "lfspt": null,
+    "fsptws": null,
+    "spl3": 4200,
+    "psm": 0,
+    "ocu": [
+        "56.8 BETA",
+        "56.1",
+        "56.2 BETA",
+        "V 055.8 OUTDATED",
+        "V 055.7 OUTDATED",
+        "V 055.5 OUTDATED",
+        "V 055.0 OUTDATED"
+    ],
+    "ocuca": true,
+    "ocugc": false,
+    "ocs": 0,
+    "ocp": 0,
+    "ocm": "",
+    "ocl": null,
+    "oca": null,
+    "opad": {
+        "project_name": "goecharger_hw3+",
+        "version": "055.8",
+        "secure_version": 0,
+        "timestamp": "Sep 14 2023 11:17:37",
+        "idf_ver": "v5.2-dev-364-g4809ffeaf7",
+        "sha256": "42cb21275d79a40b"
+    },
+    "cwe": true,
+    "cca": true,
+    "cgc": false,
+    "cws": true,
+    "cwsc": true,
+    "cwsca": 3440825327,
+    "chr": true,
+    "clea": 3440809064,
+    "cle": "esp_transport_read() failed with -1, transport_error=ESP_ERR_ESP_TLS_TCP_CLOSED_FIN, tls_error_code=0, tls_flags=0, errno=119",
+    "cpe": true,
+    "cpr": true,
+    "cus": 1,
+    "ffb": 0,
+    "ffba": null,
+    "fhz": 50.02299881,
+    "avgfhz": 50.02172852,
+    "fhzo": null,
+    "rcd": null,
+    "onv": "56.1",
+    "lom": null,
+    "loa": null,
+    "los": null,
+    "lot": {
+        "amp": 32,
+        "dyn": 32,
+        "sta": 32,
+        "ts": 0
+    },
+    "loty": 0,
+    "token1": "axuzRM3HGDrlJ0iOxddAXjwSbSe2vzzt",
+    "token_hash": "7a3a1810e0ed0508618c3014d299260ddced1f76549aa5da359d4d18d852641e",
+    "wcch": 0,
+    "wccw": 0,
+    "qsc": 0,
+    "qsw": 0,
+    "cards": [
+        {
+            "name": "André Wagner",
+            "energy": 3178004,
+            "cardId": true
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        },
+        {
+            "name": "n/a",
+            "energy": 0,
+            "cardId": false
+        }
+    ],
+    "ets": 113,
+    "dci": 1000,
+    "cdci": 1000,
+    "lps": 69,
+    "tpck": [
+        "chargectrl_v4",
+        "led",
+        "wifi",
+        "webserver",
+        "mdns",
+        "time",
+        "cloud",
+        "rfid",
+        "status",
+        "button",
+        "delta_http",
+        "delta_cloud",
+        "delta_mqtt",
+        "ota_cloud",
+        "cmdhandler",
+        "loadbalancing",
+        "modbus_slave",
+        "mqtt",
+        "ocpp",
+        "controllercomm",
+        "remotehttp",
+        "remotemdns",
+        "remoteping",
+        "cloud_send",
+        "mqtt_send"
+    ],
+    "tpcm": [
+        32,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        87,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        0
+    ],
+    "tsks": [
+        [
+            "ipc0",
+            1,
+            5,
+            1,
+            1,
+            0,
+            1396
+        ],
+        [
+            "ipc1",
+            2,
+            5,
+            24,
+            24,
+            0,
+            1452
+        ],
+        [
+            "esp_timer",
+            3,
+            5,
+            22,
+            22,
+            0,
+            3228
+        ],
+        [
+            "main",
+            4,
+            5,
+            1,
+            1,
+            0,
+            2508
+        ],
+        [
+            "IDLE",
+            5,
+            5,
+            0,
+            0,
+            0,
+            1680
+        ],
+        [
+            "IDLE",
+            6,
+            5,
+            0,
+            0,
+            0,
+            1684
+        ],
+        [
+            "Tmr Svc",
+            7,
+            5,
+            1,
+            1,
+            0,
+            1400
+        ],
+        [
+            "tiT",
+            8,
+            5,
+            18,
+            18,
+            0,
+            1924
+        ],
+        [
+            "sys_evt",
+            9,
+            5,
+            20,
+            20,
+            0,
+            1816
+        ],
+        [
+            "wifi",
+            10,
+            5,
+            23,
+            23,
+            0,
+            4048
+        ],
+        [
+            "btm_rrm_t",
+            11,
+            5,
+            2,
+            2,
+            0,
+            6044
+        ],
+        [
+            "httpd",
+            12,
+            5,
+            5,
+            5,
+            0,
+            4648
+        ],
+        [
+            "mdns",
+            13,
+            5,
+            1,
+            1,
+            0,
+            1784
+        ],
+        [
+            "cloudSendTask",
+            14,
+            5,
+            5,
+            5,
+            0,
+            2272
+        ],
+        [
+            "nfc_reader_task",
+            15,
+            5,
+            0,
+            0,
+            0,
+            2812
+        ],
+        [
+            "mqttSendTask",
+            16,
+            5,
+            5,
+            5,
+            0,
+            3432
+        ],
+        [
+            "cloud_client",
+            17,
+            5,
+            5,
+            5,
+            0,
+            428
+        ]
+    ],
+    "csca": 2,
+    "occa": 2,
+    "mqca": 2,
+    "rrca": 2,
+    "smd": null,
+    "men": false,
+    "msp": 502,
+    "msb": false,
+    "msr": true,
+    "mro": 0,
+    "mwo": 0,
+    "cup": 1,
+    "data": "{\"i\":120,\"url\":\"https://data.v3.go-e.io/data_ng?e=e5_GMnZq-J_7n0Wus-rdUpez-bYU2pf-HBJF-jtGtNmUC1dRDkcMHzW2lq0HqAnlLmMWZd0R5UZ2WIXJ5gTGicSJ87Pujw\"}",
+    "dll": "https://data.v3.go-e.io/export?e=15AtdkixjkdxL_vVYhtQPT626FlzMyelqs0CScDFUtH48fMUU97yE-Bv2YGhCpgPzBxPn3ubh4Kj",
+    "fck": true,
+    "fcc": true,
+    "asc": true,
+    "fhi": true,
+    "hasl": 0,
+    "hafl": 0,
+    "hlasl": 0,
+    "hlafl": 0,
+    "hai": true,
+    "hatv": false,
+    "hla": false,
+    "cdv": null,
+    "mscs": 0,
+    "msca": 0,
+    "mce": false,
+    "mcu": "mqtt://username:password@mqtt-broker:1883",
+    "mcr": false,
+    "mtp": "go-eCharger/239238/",
+    "mqg": true,
+    "mqcn": false,
+    "mqss": false,
+    "mck": false,
+    "mqcc": false,
+    "msc": false,
+    "mcs": false,
+    "mcc": false,
+    "mcca": null,
+    "mlr": null,
+    "mlra": null,
+    "mcsl": 0,
+    "mcfl": 0,
+    "ocppfe": false,
+    "ocppe": false,
+    "ocppfu": "",
+    "ocppu": "",
+    "ocppf": null,
+    "ocppg": true,
+    "ocppcn": false,
+    "ocppss": false,
+    "ocpps": false,
+    "ocppc": false,
+    "ocppca": null,
+    "ocppa": false,
+    "ocppaa": null,
+    "ocppti": null,
+    "ocppao": false,
+    "ocpplo": true,
+    "ocppla": true,
+    "ocpph": 3600,
+    "ocppi": 60,
+    "ocppai": 0,
+    "ocppd": "no-card",
+    "ocppr": false,
+    "ocppcm": 0,
+    "ocpplea": null,
+    "ocpple": null,
+    "ocpprl": false,
+    "ocppck": false,
+    "ocppcc": false,
+    "ocppsc": false,
+    "ocppcs": 0,
+    "rfide": true,
+    "rfe": null,
+    "rde": false,
+    "lri": null,
+    "tsi": null,
+    "lrc": 0,
+    "lrr": 3469271455,
+    "rtp": 0,
+    "rrv": 8,
+    "sau": false,
+    "loi": false,
+    "gme": false,
+    "gmk": "",
+    "cae": true,
+    "pnt": "6FPLcmgCWDycgD1dJjRu0SA62r4fS0pc",
+    "ens": "",
+    "aup": 6,
+    "tou": 0,
+    "ipw": "",
+    "cc4": {
+        "firmware_installed": true,
+        "installed_firmware_valid": true,
+        "hwid": "v4.6-rts-gd32",
+        "firmware_version": "0.0.1-50"
+    },
+    "cc4st": 1,
+    "cc4cs": 0,
+    "cc4sp": 0,
+    "cc4tl": 32000,
+    "cc4ls": 0,
+    "cc4lt": 0,
+    "cc4vm": 11715,
+    "cc4vx": 11729,
+    "cc4pp": 65535,
+    "cc4dc": 1000,
+    "cc4ss": 17600,
+    "cc4ca": false,
+    "cc4sf": false,
+    "cc4cd": false,
+    "cc4i1": false,
+    "cc4nl": false,
+    "cc4ld": false,
+    "cc4lc": false,
+    "cc4fu": false,
+    "cc4sv": true,
+    "cc4tv": true,
+    "cc4vr": false,
+    "cc42l": false,
+    "cc4tt": false,
+    "cc4tm": false,
+    "cc4rf": false,
+    "cc4rv": [
+        2480,
+        222270,
+        221650,
+        224440
+    ],
+    "cc4rc": [
+        0,
+        0,
+        0,
+        76
+    ],
+    "cc4rp": [
+        0,
+        -4,
+        33,
+        11018
+    ],
+    "cc4ap": [
+        0,
+        0,
+        0,
+        17057
+    ],
+    "cc4fm": [
+        0,
+        50026,
+        50024,
+        50023
+    ],
+    "cc4pm": [
+        -1,
+        118817,
+        0,
+        19307
+    ],
+    "cc4re": [
+        0,
+        47295175,
+        46458625,
+        47157988
+    ],
+    "cc4ae": [
+        0,
+        47524841,
+        46756721,
+        47500700
+    ],
+    "cc4is": 3,
+    "deb": true,
+    "exp": false,
+    "cmse": true,
+    "cmmr": 20,
+    "cms": "_go-e_controller",
+    "cmp": "_tcp",
+    "lcs": 3517409514,
+    "csa": false,
+    "ctrls": null,
+    "ccd": null,
+    "CN": "239238.iot.v3.go-e.io",
+    "secured": true,
+    "timestamp": 1718182715360,
+    "age": 176
+}
