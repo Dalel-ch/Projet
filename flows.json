@@ -1,0 +1,862 @@
+[
+    {
+        "id": "e3b77cf5fe641dd9",
+        "type": "tab",
+        "label": "Projet Go-e",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f4417460215e08ef",
+        "type": "http request",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.v3.go-e.io/api/v1/get_status?ticket=4qU1odGeKnHtU57IoxNQCsnqBWAfdCgz",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "754438c7e99d15ac"
+            ]
+        ]
+    },
+    {
+        "id": "754438c7e99d15ac",
+        "type": "json",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 370,
+        "y": 260,
+        "wires": [
+            [
+                "9d3bfa1b76c0280e",
+                "3fa4b2c19bf7a655"
+            ]
+        ]
+    },
+    {
+        "id": "3fa4b2c19bf7a655",
+        "type": "debug",
+        "z": "e3b77cf5fe641dd9",
+        "name": "debug 304",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "9d3bfa1b76c0280e",
+        "type": "change",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.status.json.data",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 380,
+        "wires": [
+            [
+                "4f05b3ea154907c4",
+                "15e9907c431c8b92"
+            ]
+        ]
+    },
+    {
+        "id": "4f05b3ea154907c4",
+        "type": "debug",
+        "z": "e3b77cf5fe641dd9",
+        "name": "debug 305",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "1784308adb59facf",
+        "type": "change",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "payload.link",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 900,
+        "wires": [
+            [
+                "32ca3ee9f001eaf1"
+            ]
+        ]
+    },
+    {
+        "id": "32ca3ee9f001eaf1",
+        "type": "ui_iframe",
+        "z": "e3b77cf5fe641dd9",
+        "group": "a5482f71864ecefc",
+        "name": "",
+        "order": 11,
+        "width": 25,
+        "height": 7,
+        "url": "",
+        "origin": "*",
+        "scale": 100,
+        "x": 730,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15e9907c431c8b92",
+        "type": "ui_table",
+        "z": "e3b77cf5fe641dd9",
+        "group": "0aa14586729fa24c",
+        "name": "",
+        "order": 2,
+        "width": 30,
+        "height": 6,
+        "columns": [
+            {
+                "field": "session_number",
+                "title": "Session",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id_chip",
+                "title": "ID Chip",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id_chip_uid",
+                "title": "ID Chip UID",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id_chip_name",
+                "title": "ID Chip Name",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "start",
+                "title": "Start",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "end",
+                "title": "End",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "seconds_total",
+                "title": "Total Time",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "seconds_charged",
+                "title": "Charging Time",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "max_power",
+                "title": "Max Power",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "max_current",
+                "title": "Max Current",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "energy",
+                "title": "Energy",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "eto_diff",
+                "title": "Meter Diference",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "eto_start",
+                "title": "Meter Start",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "eto_end",
+                "title": "Meter End",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "wifi",
+                "title": "Wifi connection ",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 230,
+        "y": 600,
+        "wires": [
+            [
+                "1784308adb59facf",
+                "a978e6bf859836c7",
+                "46c44083afb2a69b",
+                "0cb1a483d7901fe0"
+            ]
+        ]
+    },
+    {
+        "id": "a978e6bf859836c7",
+        "type": "change",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.session_identifier",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 700,
+        "wires": [
+            [
+                "7f9680e2bfb34022",
+                "e354db86a73b39c7"
+            ]
+        ]
+    },
+    {
+        "id": "7f9680e2bfb34022",
+        "type": "ui_text",
+        "z": "e3b77cf5fe641dd9",
+        "group": "a5482f71864ecefc",
+        "order": 3,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Session identifier:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 730,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "e354db86a73b39c7",
+        "type": "function",
+        "z": "e3b77cf5fe641dd9",
+        "name": "Get Serial number",
+        "func": "var inputString = msg.payload;\nvar outputString = inputString.split('_')[0];\nmsg.payload = outputString;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 820,
+        "wires": [
+            [
+                "2e37a668d2d5e893"
+            ]
+        ]
+    },
+    {
+        "id": "2e37a668d2d5e893",
+        "type": "ui_text",
+        "z": "e3b77cf5fe641dd9",
+        "group": "a5482f71864ecefc",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Serial number :",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 740,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "ed0bd42b5b9b1314",
+        "type": "ui_text",
+        "z": "e3b77cf5fe641dd9",
+        "group": "a5482f71864ecefc",
+        "order": 5,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Name :",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 720,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "46c44083afb2a69b",
+        "type": "change",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.id_chip_name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 620,
+        "wires": [
+            [
+                "ed0bd42b5b9b1314"
+            ]
+        ]
+    },
+    {
+        "id": "0cb1a483d7901fe0",
+        "type": "debug",
+        "z": "e3b77cf5fe641dd9",
+        "name": "debug 306",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "cd8757aac0442581",
+        "type": "inject",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 120,
+        "y": 2900,
+        "wires": [
+            [
+                "990e5c8e84206a08"
+            ]
+        ]
+    },
+    {
+        "id": "990e5c8e84206a08",
+        "type": "file in",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "filename": "C:\\Users\\PC\\Desktop\\données\\new 1.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 420,
+        "y": 2900,
+        "wires": [
+            [
+                "6f6db3dacee09ffd"
+            ]
+        ]
+    },
+    {
+        "id": "6f6db3dacee09ffd",
+        "type": "json",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 510,
+        "y": 3000,
+        "wires": [
+            [
+                "95bdb9bbce932717"
+            ]
+        ]
+    },
+    {
+        "id": "5e19697968a63035",
+        "type": "debug",
+        "z": "e3b77cf5fe641dd9",
+        "name": "debug 307",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 3180,
+        "wires": []
+    },
+    {
+        "id": "95bdb9bbce932717",
+        "type": "change",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.dll",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 3100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6bf340bfe06a9829",
+        "type": "mqtt in",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "topic": "go-wallbox-lux",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "407a01e4.6b637",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 90,
+        "y": 160,
+        "wires": [
+            [
+                "f4417460215e08ef",
+                "44158c229676edf7"
+            ]
+        ]
+    },
+    {
+        "id": "44158c229676edf7",
+        "type": "debug",
+        "z": "e3b77cf5fe641dd9",
+        "name": "debug 332",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 130,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "399344de9da9062c",
+        "type": "ui_text",
+        "z": "e3b77cf5fe641dd9",
+        "group": "a5482f71864ecefc",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": 16,
+        "color": "#10da39",
+        "x": 730,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "34541fd3e2bbadf4",
+        "type": "inject",
+        "z": "e3b77cf5fe641dd9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Dashbord",
+        "payloadType": "str",
+        "x": 510,
+        "y": 960,
+        "wires": [
+            [
+                "399344de9da9062c"
+            ]
+        ]
+    },
+    {
+        "id": "e6413390c1b9e44b",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "0aa14586729fa24c",
+        "order": 1,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "148189de25ec5196",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bba59277c4f5ea29",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f54d0f47bb616715",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4321bbadf1c6977a",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 7,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "1cd66e7756fd7693",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 8,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "bb19e05c77be3762",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 10,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "800d7a0e9afd4cd0",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 12,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "57b1cb509011de65",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 13,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "630a538b5d95e72c",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 14,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "4300545754ebcd26",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 15,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "2937b2a59e9a65b0",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "c836f9fd70634547",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 17,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "b49f742461fb2a60",
+        "type": "ui_spacer",
+        "z": "e3b77cf5fe641dd9",
+        "name": "spacer",
+        "group": "a5482f71864ecefc",
+        "order": 18,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a5482f71864ecefc",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "48f9b54ee921c6cf",
+        "order": 2,
+        "disp": false,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0aa14586729fa24c",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "48f9b54ee921c6cf",
+        "order": 1,
+        "disp": false,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "407a01e4.6b637",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "48f9b54ee921c6cf",
+        "type": "ui_tab",
+        "name": "Charging Session Export 239238",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    }
+]
