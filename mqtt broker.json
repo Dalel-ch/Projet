@@ -1,0 +1,73 @@
+[
+    {
+        "id": "e0954a3c1a8e054f",
+        "type": "tab",
+        "label": "Flux 10",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "923a97278fa95df4",
+        "type": "mqtt in",
+        "z": "e0954a3c1a8e054f",
+        "name": "",
+        "topic": "go-wallbox-lux",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "407a01e4.6b637",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "cdaeb056acebc029"
+            ]
+        ]
+    },
+    {
+        "id": "cdaeb056acebc029",
+        "type": "debug",
+        "z": "e0954a3c1a8e054f",
+        "name": "debug 329",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "407a01e4.6b637",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
